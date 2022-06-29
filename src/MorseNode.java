@@ -3,7 +3,9 @@ public class MorseNode {
     char meaning;
     MorseNode Left,Right;
 
+    MorseNode(char data,char meaning){
 
+    }
 
 
 
