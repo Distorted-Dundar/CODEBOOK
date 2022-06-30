@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class MorseCode {
 
     public MorseCode(){
@@ -10,6 +12,18 @@ public class MorseCode {
         System.out.println((int)'_');
         System.out.println((int)' ');
         System.out.println((int)'\n');
+        MorseHeap code = new MorseHeap();
+      System.out.println(code.getCode(3).meaning);
+
+        Scanner obj = new Scanner(System.in);
+        String line = obj.nextLine();
+        String Code;
+//        for(int i = 0; i < line.length();i++){
+//            System.out.println(line.charAt(i));
+//            if(line)
+//
+//        }
+        System.out.println("Hello");
 
 //        if(char.int ==95)
 //            root.Left
