@@ -37,7 +37,9 @@ public class MorseHeap {
         array[30] = new MorseNode('_','V');
         array[31] = new MorseNode('.','H');
 
-//
+//      Dictionary i.e phone book will help point out where the char exists on the heap so that you can get the string of the
+//        desired char it uses a Object LookMorse with char and heapindex
+//        By using an array we can do trivial arithmetic to get the desired heapindex in 1 move!
         Dictionary[0] = new LookMorse('A' ,  6);
         Dictionary[1] = new LookMorse('B' ,  23);
         Dictionary[2] = new LookMorse('C' ,  21);
@@ -87,6 +89,7 @@ public class MorseHeap {
 
 
 //    recusivly get from parent to parent until reach 1 or before it and return the reversed string via tail recursion
+//    We do a max of 3 recursive calls since the tree has height of 3
     String EncodeChar(int x){
         if (x <= 1) return "";
         return EncodeChar((int)(x/2)) + array[x].data;
@@ -145,10 +148,6 @@ public class MorseHeap {
       }
         return result;
     }
-
-
-
-
     }
 
 
