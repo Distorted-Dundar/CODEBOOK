@@ -1,4 +1,6 @@
 public class MorseTree {
+//    Not needed anymore
+
     MorseNode root =null;
     MorseTree(){
         root.Right = new MorseNode('.','E');

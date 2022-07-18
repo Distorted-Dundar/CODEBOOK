@@ -6,25 +6,48 @@ public class MorseCode {
 
     }
 //    https://media.discordapp.net/attachments/731267924324646912/991553593469583430/IMG_3568.jpg?width=1272&height=1696
-//samihah was here 
+//samihah was here -> Thanks
+//    _ is 95 in ascii
+//    . is 46 in ascii
+//   " " A blank space is 32
+//    \n a new line char is 10
+
     public static void main(String[] args) {
-        System.out.println((int)'_');
-        System.out.println((int)'.');
-        System.out.println((int)'_');
-        System.out.println((int)' ');
-        System.out.println((int)'\n');
         MorseHeap code = new MorseHeap();
-      System.out.println(code.getCode(3).meaning);
+//      System.out.println(code.getCode(3).meaning);
 
         Scanner obj = new Scanner(System.in);
-        String line = obj.nextLine();
-        String Code;
+//        String line = obj.nextLine();
+//        String Code;
 //        for(int i = 0; i < line.length();i++){
 //            System.out.println(line.charAt(i));
 //            if(line)
 //
 //        }
-        System.out.println("Hello");
+//        System.out.println(code.TranslateString("... ___ ...  ... ._ _... ._."));
+
+//        System.out.println((int)'A');
+//        System.out.println((int)'a');
+//        System.out.println(Character.toUpperCase('a'));
+//        System.out.println((int)Character.toUpperCase('A') - 65);
+//        System.out.println((int)Character.toUpperCase('y') - 65);
+//        System.out.println((int)Character.toUpperCase('z') - 65);
+
+
+
+//        System.out.println(code.EncodeMessage("SOS Please help"));
+        System.out.println(code.EncodeMessage("Victory"));
+        System.out.println(code.EncodeMessage("Project supports Encoding and decoding"));
+
+//        System.out.println(code.TranslateString("..  ._.. ___ ..._ .  __ . ._.. _._ . _.__"));
+//         for(int i = 0; i <= 25;i++){
+////             System.out.println("Dictionary[" + i +"]" + " = " + "new LookMorse" + "(" + "'"+((char)(17+i + '0')) + "'"+ " , " + " "+ i +")");
+//             System.out.println((char)(i + 65 + '0'));
+//
+//
+//         }
+
+
 
 //        if(char.int ==95)
 //            root.Left
