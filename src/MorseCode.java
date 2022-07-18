@@ -6,7 +6,7 @@ public class MorseCode {
 
     }
 //    https://media.discordapp.net/attachments/731267924324646912/991553593469583430/IMG_3568.jpg?width=1272&height=1696
-
+//samihah was here 
     public static void main(String[] args) {
         System.out.println((int)'_');
         System.out.println((int)'.');
