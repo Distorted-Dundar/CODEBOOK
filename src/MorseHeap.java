@@ -4,6 +4,7 @@ public class MorseHeap {
     String charCode = "";
 
     public MorseHeap(){
+//        The actual Morse Heap array
         array[0] = null;
         array[1] = new MorseNode(' ', ' ');
         array[2] = new MorseNode('_','T');
@@ -70,17 +71,12 @@ public class MorseHeap {
     }
     public MorseNode getCode(int x){
         if(x  <= 1 || x > 31) {
-//            System.out.println("Not a proper index");
             return new MorseNode(' ', ' ');
         }
         return array[x];
         }
 
-    public String TranslateChar(char x){
-        String result="";
 
-        return result;
-    }
 //    Assumes that is valid char from 65 to 90  and 97- 122
     public int getHeapIndexChar(char x){
 //        convert char to upper case then find where it exists on the heap using getHeapIndex
